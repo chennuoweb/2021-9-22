@@ -1,0 +1,12 @@
+// 清除浮动
+.clearfix{
+  &::before, &::after{
+    content: 'table';
+    display: block;
+    clear: both;
+  }
+}
+
+.w{
+  min-width: 1240px;
+}
