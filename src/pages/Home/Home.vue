@@ -1,5 +1,9 @@
 <template>
-  <div class="top-banner-wrapper"></div>
+  <div class="top-banner-wrapper">
+    <div class="top-banner w">
+
+    </div>
+  </div>
 </template>
 
 <script>
@@ -10,7 +14,10 @@ export default {
 
 <style lang="less" scoped>
 .top-banner-wrapper{
-  min-width: 1240;
-  background-color: #bfa;
+  width: 100%;
+  .top-banner{
+    height: 600px;
+    background-color: #bfa;
+  }
 }
 </style>

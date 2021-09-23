@@ -1,24 +1,22 @@
 <template>
   <div id="app">
     <!-- 顶部导航容器 -->
-    <div class="top-bar-wrapper">
-      <div class="top-bar w">
-        <div class="header-logo">
-          <a href="#"><img src="" alt=""></a>
-        </div>
-      </div>
-    </div>
+    <HeaderTopBar/>
     <router-view></router-view>
-    <div></div>
+    <FooterBar/>
   </div>
 </template>
 
 <script>
+import HeaderTopBar from './components/HeaderTopBar/HeaderTopBar.vue';
 import Home from "./pages/Home/Home.vue";
+import FooterBar from './components/FooterBar/FooterBar.vue';
 export default {
   name: "App",
   components: {
+    HeaderTopBar,
     Home,
+    FooterBar,
   },
 };
 </script>
@@ -26,9 +24,6 @@ export default {
 <style lang='less'>
 @import "./common/less/mixins.less";
 #app {
-  .top-bar-wrapper {
-    height: 100px;
-    background-color: #bfa;
-  }
+  background-color: rgb(244, 244, 244);
 }
 </style>
