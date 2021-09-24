@@ -1,14 +1,20 @@
 // 清除浮动
 .clearfix{
   &::before, &::after{
-    content: table;
-    display: block;
+    content: '';
+    display: table;
     clear: both;
   }
 }
 
 .w{
   width: 1240px;
+  margin: 0 auto;
+}
+
+.min-w {
+  width: 100%;
+  min-width: 1240px;
   margin: 0 auto;
 }
 @blue: #008cff;

@@ -100,11 +100,11 @@ export default {
 </script>
 
 <style lang='less'>
+@import '../../common/less/mixins.less';
 .top-bar-wrapper{
-  position: relative;
-  top: 0;
   width: 100%;
-  background-color: #ffffff;
+  float: left;
+  background-color: transparent;
 }
 .top-bar{
   height: 84px;
@@ -127,7 +127,7 @@ export default {
         margin-bottom: 20px;
         color: #515151;
         &:hover{
-          color: rgb(0, 185, 242);
+          color: @blue;
         }
       }
     }
@@ -218,7 +218,7 @@ export default {
         font-size: 22px;
         color: rgb(102, 102, 102);
         &:hover{
-        color: rgb(0, 140, 255);
+        color: @blue;
         }
       }
     }
