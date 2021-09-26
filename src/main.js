@@ -3,6 +3,8 @@ import App from './App.vue'
 import router from './router/index';
 import store from './store';
 
+import './mock/mockServer';
+
 import less from 'less';
 import '../static/css/reset.css';
 import '../static/cssfont/css/all.min.css';

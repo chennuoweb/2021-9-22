@@ -99,11 +99,10 @@ export default {
 };
 </script>
 
-<style lang='less'>
+<style lang='less' rel="stylesheet/less" scoped>
 @import '../../common/less/mixins.less';
 .top-bar-wrapper{
   width: 100%;
-  float: left;
   background-color: transparent;
 }
 .top-bar{
@@ -125,7 +124,7 @@ export default {
         display: block;
         padding: 31px 10px 0;
         margin-bottom: 20px;
-        color: #515151;
+        color: #ffffff;
         &:hover{
           color: @blue;
         }
@@ -133,7 +132,6 @@ export default {
     }
     .nav-list{
       .goods-active{
-        height: 84px;
         &:hover ~ .goods-category-info{
           height: 184px;
         }
@@ -157,7 +155,7 @@ export default {
           .good-info a{
             width: 150px;
             text-align: center;
-            color: #333;
+            color: #ffffff;
             font-size: 12px;
             display: flex;
             flex-direction: column;
@@ -195,6 +193,8 @@ export default {
         margin-left: 10px;
         border: none;
         outline: none;
+        color: #ffffff;
+        background-color: transparent;
       }
       .search-btn{
         float: right;

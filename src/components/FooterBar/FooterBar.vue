@@ -147,7 +147,7 @@ export default {
 }
 </script>
 
-<style lang='less'>
+<style lang='less' rel="stylesheet/less" scoped>
 @import '../../common/less/mixins.less';
 .footer-wrapper{
   width: 100%;

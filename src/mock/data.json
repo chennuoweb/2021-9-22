@@ -1,0 +1,13 @@
+
+{
+  "info": { },
+  "news": [
+    {
+      "id":"@increment()",
+      "title":"@ctitle",
+      "content":"@cparagraph(5,15)",
+      "img_url":"@Random.image('100x100','#ff83fa','#fcfcfc','png','蓝猫'",
+      "add_time":"@DATE(yyyy-MM-dd hh:mm:ss)"
+    }
+  ]
+}
